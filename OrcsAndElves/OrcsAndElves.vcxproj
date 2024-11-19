@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{56a7e7c5-f901-466e-8e30-7951698cb498}</ProjectGuid>
+    <ProjectGuid>{e484bcff-25f2-4dcf-b861-ca8c11ea147c}</ProjectGuid>
     <RootNamespace>OrcsAndElves</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -139,7 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Decorator.cpp" />
+    <ClCompile Include="Elf.cpp" />
+    <ClCompile Include="FarmerDecorator.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Orc.cpp" />
+    <ClCompile Include="ShamanDecorator.cpp" />
+    <ClCompile Include="SoldierDecorator.cpp" />
+    <ClCompile Include="Unit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Decorator.h" />
+    <ClInclude Include="Elf.h" />
+    <ClInclude Include="FarmerDecorator.h" />
+    <ClInclude Include="Orc.h" />
+    <ClInclude Include="ShamanDecorator.h" />
+    <ClInclude Include="SoldierDecorator.h" />
+    <ClInclude Include="Unit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
